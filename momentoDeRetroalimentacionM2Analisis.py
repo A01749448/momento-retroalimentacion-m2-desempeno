@@ -336,9 +336,9 @@ print('Precision Score Test: ', metrics.precision_score(y_test, prediccion_test)
 print('Recall Score Test: ', metrics.recall_score(y_test, prediccion_test))
 
 # Validation
-print('Accuracy Score Test: ', metrics.accuracy_score(y_val, prediccion_val))
-print('Precision Score Test: ', metrics.precision_score(y_val, prediccion_val))
-print('Recall Score Test: ', metrics.recall_score(y_val, prediccion_val))
+print('Accuracy Score Validation: ', metrics.accuracy_score(y_val, prediccion_val))
+print('Precision Score Validation: ', metrics.precision_score(y_val, prediccion_val))
+print('Recall Score Validation: ', metrics.recall_score(y_val, prediccion_val))
 
 # Test
 print('Matriz de Confusión: ')
